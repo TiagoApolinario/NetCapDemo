@@ -1,0 +1,30 @@
+version: '3.9'
+services:
+  web:
+    build:
+      context: .
+      dockerfile: src/NetCapDemo.Web/Dockerfile
+    container_name: web
+    ports:
+      - "8000:8000"
+    environment:
+      - DOTNET_ENVIRONMENT=Docker
+      - DOTNET_URLS=http://+:8000
+  worker1:
+    build:
+      context: .
+      dockerfile: src/NetCapDemo.Worker/Dockerfile
+    container_name: worker1
+    environment:
+      - DOTNET_ENVIRONMENT=Docker
+    depends_on:
+      - web
+  worker2:
+    build:
+      context: .
+      dockerfile: src/NetCapDemo.Worker/Dockerfile
+    container_name: worker2
+    environment:
+      - DOTNET_ENVIRONMENT=Docker
+    depends_on:
+      - web

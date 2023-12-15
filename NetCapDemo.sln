@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{F76A6300-9B77-4374-AF42-F06263B93BEE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetCapDemo.Application", "src\NetCapDemo.Application\NetCapDemo.Application.csproj", "{9EB93B4D-B803-4808-9980-8CC439CF5BD4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetCapDemo.Web", "src\NetCapDemo.Web\NetCapDemo.Web.csproj", "{8F203D50-EF21-4F08-908F-6DC5CA2D07E4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetCapDemo.Worker", "src\NetCapDemo.Worker\NetCapDemo.Worker.csproj", "{64C7D03D-9BCE-480D-A843-DFEBD567CE5E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{9EB93B4D-B803-4808-9980-8CC439CF5BD4} = {F76A6300-9B77-4374-AF42-F06263B93BEE}
+		{8F203D50-EF21-4F08-908F-6DC5CA2D07E4} = {F76A6300-9B77-4374-AF42-F06263B93BEE}
+		{64C7D03D-9BCE-480D-A843-DFEBD567CE5E} = {F76A6300-9B77-4374-AF42-F06263B93BEE}
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9EB93B4D-B803-4808-9980-8CC439CF5BD4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9EB93B4D-B803-4808-9980-8CC439CF5BD4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9EB93B4D-B803-4808-9980-8CC439CF5BD4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9EB93B4D-B803-4808-9980-8CC439CF5BD4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8F203D50-EF21-4F08-908F-6DC5CA2D07E4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8F203D50-EF21-4F08-908F-6DC5CA2D07E4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8F203D50-EF21-4F08-908F-6DC5CA2D07E4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8F203D50-EF21-4F08-908F-6DC5CA2D07E4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{64C7D03D-9BCE-480D-A843-DFEBD567CE5E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{64C7D03D-9BCE-480D-A843-DFEBD567CE5E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{64C7D03D-9BCE-480D-A843-DFEBD567CE5E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{64C7D03D-9BCE-480D-A843-DFEBD567CE5E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
